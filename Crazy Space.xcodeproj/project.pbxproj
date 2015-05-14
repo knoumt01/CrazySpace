@@ -15,6 +15,7 @@
 		44AA5B2B1B03F219007FC620 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44AA5B291B03F219007FC620 /* LaunchScreen.xib */; };
 		44AA5B371B03F21A007FC620 /* Crazy_SpaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AA5B361B03F21A007FC620 /* Crazy_SpaceTests.swift */; };
 		44AA5B411B041E65007FC620 /* leveleditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AA5B401B041E65007FC620 /* leveleditor.swift */; };
+		44D7AECE1B045A4D00EBE800 /* sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 44D7AECD1B045A4D00EBE800 /* sprites.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		44AA5B351B03F21A007FC620 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44AA5B361B03F21A007FC620 /* Crazy_SpaceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crazy_SpaceTests.swift; sourceTree = "<group>"; };
 		44AA5B401B041E65007FC620 /* leveleditor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = leveleditor.swift; sourceTree = "<group>"; };
+		44D7AECD1B045A4D00EBE800 /* sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = sprites.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		44AA5B191B03F219007FC620 /* Crazy Space */ = {
 			isa = PBXGroup;
 			children = (
+				44D7AECD1B045A4D00EBE800 /* sprites.atlas */,
 				44AA5B1C1B03F219007FC620 /* AppDelegate.swift */,
 				44AA5B201B03F219007FC620 /* GameScene.swift */,
 				44AA5B221B03F219007FC620 /* GameViewController.swift */,
@@ -200,6 +203,7 @@
 			files = (
 				44AA5B2B1B03F219007FC620 /* LaunchScreen.xib in Resources */,
 				44AA5B281B03F219007FC620 /* Images.xcassets in Resources */,
+				44D7AECE1B045A4D00EBE800 /* sprites.atlas in Resources */,
 				44AA5B261B03F219007FC620 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,6 +419,7 @@
 				44AA5B3C1B03F21A007FC620 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		44AA5B3D1B03F21A007FC620 /* Build configuration list for PBXNativeTarget "Crazy SpaceTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +428,7 @@
 				44AA5B3F1B03F21A007FC620 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
